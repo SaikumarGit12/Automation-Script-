@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-18T18:43:55 IST" name="OrganeHRM Testsuite" finished-at="2023-10-18T18:43:55 IST" duration-ms="469">
+    <groups>
+    </groups>
+    <test started-at="2023-10-18T18:43:55 IST" name="AdminwithInvalidData" finished-at="2023-10-18T18:43:55 IST" duration-ms="469">
+      <class name="TestCasesNG.AdminLoginwithInvalidDataNG">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:TestCasesNG.AdminLoginwithInvalidDataNG@47af7f3d]" started-at="2023-10-18T18:43:53 IST" name="LaunchApp" finished-at="2023-10-18T18:43:55 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="CheckAdminwithInvalidData(java.lang.String,java.lang.String)[pri:0, instance:TestCasesNG.AdminLoginwithInvalidDataNG@47af7f3d]" started-at="2023-10-18T18:43:55 IST" name="CheckAdminwithInvalidData" finished-at="2023-10-18T18:43:55 IST" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdminwithInvalidData -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestCasesNG.AdminLoginwithInvalidDataNG@47af7f3d]" started-at="2023-10-18T18:43:55 IST" name="closeApp" finished-at="2023-10-18T18:43:56 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestCasesNG.AdminLoginwithInvalidDataNG -->
+    </test> <!-- AdminwithInvalidData -->
+  </suite> <!-- OrganeHRM Testsuite -->
+</testng-results>

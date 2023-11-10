@@ -1,0 +1,39 @@
+<suite name="OrganeHRM Testsuite">
+
+	<test name="AdminLoginwithValidData">
+		<parameter name="adminuid" value="Admin"></parameter>
+		<parameter name="adminpwd" value="Qedge123!@#"></parameter>
+		<classes>
+			<class name="TestCasesNG.adminLoginwithValidDataNG"></class>
+		</classes>
+	</test>
+
+	<test name="AdminwithInvalidData">
+		<parameter name="adminid" value="abc"></parameter>
+		<parameter name="adminpsd" value="xyz"></parameter>
+		<classes>
+			<class name="TestCasesNG.AdminLoginwithInvalidDataNG"></class>
+		</classes>
+	</test>
+
+	<test name="AddEmployee">
+		<parameter name="fName" value="Anils"></parameter>
+		<parameter name="lName" value="sap"></parameter>
+		<classes>
+			<class name="TestCasesNG.EmployeeLogin"></class>
+		</classes>
+	</test>
+
+	<test name="EmployeeRegTests">
+		<parameter name="role" value="ESS"></parameter>
+		<parameter name="empname" value="Anils sap"></parameter>
+		<parameter name="uname" value="Anilssap123"></parameter>
+		<parameter name="pwrd" value="MissioN@0375"></parameter>
+
+		<classes>
+			<class name="TestCasesNG.EmployeeRegTest"></class>
+		</classes>
+	</test>
+
+
+</suite>
