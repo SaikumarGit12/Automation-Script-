@@ -1,0 +1,12 @@
+<suite name = "OrangeDDT">
+	<test name = "AdminvalidwithDDT">
+		<classes >
+			<class name = "Testcases.AdminLoginwithTestData"></class>
+		</classes>
+	</test>
+	<test name = "AdmininValidDDT">
+	<classes >
+		<class name = "Testcases.AdminLoginwithInValidData"></class>
+	</classes>
+	</test>
+</suite>
